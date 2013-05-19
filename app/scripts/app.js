@@ -7,6 +7,10 @@ angular.module('TimeThingiesApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/me', {
+        templateUrl: 'views/me.html',
+        controller: 'MeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
