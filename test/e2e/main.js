@@ -1,5 +1,3 @@
-describe('Time Thingies App', function() {
-
     describe('Main page', function() {
 
         beforeEach(function() {
@@ -18,4 +16,3 @@ describe('Time Thingies App', function() {
             expect(element('a[href*=friends]').count()).toBe(1);
         });
     });
-});
